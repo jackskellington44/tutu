@@ -1,26 +1,226 @@
-body {
-    font-family: Helvetica, Arial, sans-serif;
-    margin: 20px;
+/* ── Reset & base ────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+    --bg:        #1a0a2e;
+    --surface:   #2d1b4e;
+    --surface2:  #3d2a5e;
+    --accent:    #c9a84c;
+    --accent2:   #e8d5a3;
+    --text:      #f0e6d3;
+    --text-dim:  #a89880;
+    --error:     #c0392b;
+    --upright:   #4a9c6a;
+    --reversed:  #8b4a9c;
+    --radius:    12px;
+    --shadow:    0 4px 16px rgba(0,0,0,0.5);
 }
 
-h1, h1.detail-title {
+html, body {
+    min-height: 100%;
+    background: var(--bg);
+    color: var(--text);
+    font-family: Georgia, 'Times New Roman', serif;
     font-size: 16px;
-    font-weight: normal;
-    text-decoration: underline;
-    margin-bottom: 15px;
+    line-height: 1.5;
 }
 
+/* ── Layout ──────────────────────────────────────────────────────────────── */
+header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--accent);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+main {
+    padding: 20px 16px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* ── Typography ──────────────────────────────────────────────────────────── */
+.app-title {
+    font-size: 18px;
+    font-weight: normal;
+    color: var(--accent);
+    letter-spacing: 0.5px;
+    flex: 1;
+}
+
+.section-label {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--text-dim);
+    margin-bottom: 12px;
+}
+
+/* ── Buttons — base ──────────────────────────────────────────────────────── */
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: var(--radius);
+    font-family: inherit;
+    transition: opacity 0.15s, transform 0.1s;
+    -webkit-tap-highlight-color: transparent;
+}
+button:active { transform: scale(0.97); opacity: 0.85; }
+
+/* Back button */
+.back-btn {
+    background: transparent;
+    color: var(--accent);
+    font-size: 15px;
+    padding: 6px 10px;
+    border: 1px solid var(--accent);
+    border-radius: 8px;
+    white-space: nowrap;
+}
+
+/* Random / draw button */
+.random-btn {
+    display: block;
+    width: 100%;
+    padding: 18px;
+    background: linear-gradient(135deg, var(--accent), #a07830);
+    color: #1a0a2e;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    margin-bottom: 4px;
+}
+
+/* Suit grid */
+.suit-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.suit-btn {
+    width: 100%;
+    padding: 15px 18px;
+    text-align: left;
+    background: var(--surface);
+    color: var(--text);
+    font-size: 15px;
+    border: 1px solid var(--surface2);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+.suit-btn:hover { background: var(--surface2); }
+
+/* Clear history button */
+.clear-btn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: transparent;
+    color: var(--text-dim);
+    font-size: 13px;
+    border: 1px solid var(--surface2);
+}
+
+/* ── Home sections ───────────────────────────────────────────────────────── */
+.home-section {
+    margin-bottom: 28px;
+}
+
+/* ── Card list ───────────────────────────────────────────────────────────── */
 .card-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4px 0;
+    padding: 14px 12px;
+    background: var(--surface);
+    border: 1px solid var(--surface2);
+    border-radius: var(--radius);
+    margin-bottom: 8px;
 }
 
 .card-name {
     flex-grow: 1;
+    cursor: pointer;
+    color: var(--text);
+    font-size: 15px;
 }
+.card-name:hover { color: var(--accent2); }
 
 .reversed-btn {
-    margin-left: 15px; /* This creates the gap */
+    padding: 8px 14px;
+    background: var(--reversed);
+    color: #fff;
+    font-size: 13px;
+    border-radius: 8px;
+    margin-left: 12px;
+    flex-shrink: 0;
 }
+
+/* ── Detail page ─────────────────────────────────────────────────────────── */
+.card-image {
+    font-size: 96px;
+    text-align: center;
+    margin: 24px 0 12px;
+    line-height: 1;
+}
+
+.orientation-badge {
+    display: inline-block;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.orientation-badge.upright  { background: var(--upright);  color: #fff; }
+.orientation-badge.reversed { background: var(--reversed); color: #fff; }
+
+.description-box {
+    background: var(--surface);
+    border: 1px solid var(--surface2);
+    border-radius: var(--radius);
+    padding: 20px;
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--accent2);
+}
+
+/* ── History ─────────────────────────────────────────────────────────────── */
+.history-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    background: var(--surface);
+    border: 1px solid var(--surface2);
+    border-radius: var(--radius);
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.history-item:hover { background: var(--surface2); }
+
+.history-image { font-size: 24px; flex-shrink: 0; }
+.history-info  { font-size: 14px; color: var(--text-dim); }
+
+/* ── Error box ───────────────────────────────────────────────────────────── */
+.error-box {
+    background: rgba(192, 57, 43, 0.15);
+    border: 1px solid var(--error);
+    border-radius: var(--radius);
+    padding: 16px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.error-box p  { margin-bottom: 10px; color: #e07070; }
+.error-box button {
+    padding: 8px 20px;
+    background: var(--error);
+    color: #fff;
+    font-size: 14px;
+}
+

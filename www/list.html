@@ -7,12 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <h1 class="detail-title" id="suit-title">Loading...</h1>
-    
-    <div id="card-container">
-        <!-- Cards will appear here -->
-    </div>
-    
+    <header>
+        <button class="back-btn" onclick="history.back()">← Back</button>
+        <h1 class="app-title" id="suit-title">Loading...</h1>
+    </header>
+
+    <main>
+        <div id="error-box" class="error-box" style="display:none">
+            <p id="error-msg">Failed to load cards.</p>
+            <button onclick="loadListPage()">Retry</button>
+        </div>
+
+        <div id="card-container"></div>
+    </main>
+
     <script src="script.js"></script>
 </body>
 </html>

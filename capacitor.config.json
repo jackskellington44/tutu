@@ -1,10 +1,14 @@
 {
   "appId": "com.jackskellington.tutu",
-  "appName": "Tutu",
-  "webDir": "www"
-
-
-  
+  "appName": "Tutu Tarot",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "launchAutoHide": true,
+      "backgroundColor": "#1a0a2e",
+      "androidSplashResourceName": "splash",
+      "showSpinner": false
+    }
+  }
 }
-
-

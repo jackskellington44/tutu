@@ -3,84 +3,98 @@
         "id": 1,
         "name": "Ace of Pentacles",
         "upright": "New financial opportunity, prosperity, abundance, physical well-being, seed of wealth.",
-        "reversed": "Lost opportunity, missed chance, poor investment, waste, lack of resources."
+        "reversed": "Lost opportunity, missed chance, poor investment, waste, lack of resources.",
+        "image": "\ud83d\udcb0"
     },
     {
         "id": 2,
         "name": "Two of Pentacles",
         "upright": "Balancing priorities, adaptability, multitasking, juggling finances, flexibility.",
-        "reversed": "Loss of balance, disorganization, overwhelm, financial strain, poor time management."
+        "reversed": "Loss of balance, disorganization, overwhelm, financial strain, poor time management.",
+        "image": "\ud83e\udd1d"
     },
     {
         "id": 3,
         "name": "Three of Pentacles",
         "upright": "Teamwork, collaboration, skill-building, craftsmanship, quality work, mentorship.",
-        "reversed": "Poor teamwork, lack of skills, disorganization, group conflict, low standards."
+        "reversed": "Poor teamwork, lack of skills, disorganization, group conflict, low standards.",
+        "image": "\ud83c\udfd7\ufe0f"
     },
     {
         "id": 4,
         "name": "Four of Pentacles",
         "upright": "Security, savings, frugality, control, stability, holding onto resources.",
-        "reversed": "Greed, stinginess, possessiveness, fear of loss, generosity, letting go."
+        "reversed": "Greed, stinginess, possessiveness, fear of loss, generosity, letting go.",
+        "image": "\ud83d\udcb8"
     },
     {
         "id": 5,
         "name": "Five of Pentacles",
         "upright": "Hardship, poverty, isolation, feeling left out, financial struggle, loss.",
-        "reversed": "Recovery, charity, improvement, acceptance, overcoming hardship, hope."
+        "reversed": "Recovery, charity, improvement, acceptance, overcoming hardship, hope.",
+        "image": "\ud83c\udf31"
     },
     {
         "id": 6,
         "name": "Six of Pentacles",
         "upright": "Generosity, charity, sharing, repayment, giving and receiving, balance.",
-        "reversed": "Strings attached, debt, dependency, one-sidedness, greed, conditional giving."
+        "reversed": "Strings attached, debt, dependency, one-sidedness, greed, conditional giving.",
+        "image": "\ud83c\udf81"
     },
     {
         "id": 7,
         "name": "Seven of Pentacles",
         "upright": "Patience, long-term view, investing, waiting for results, diligence, assessment.",
-        "reversed": "Impatience, wasted effort, lack of rewards, distractions, poor investment."
+        "reversed": "Impatience, wasted effort, lack of rewards, distractions, poor investment.",
+        "image": "\ud83c\udfcb\ufe0f"
     },
     {
         "id": 8,
         "name": "Eight of Pentacles",
         "upright": "Work ethic, mastery, apprenticeship, dedication, improving skills, routine.",
-        "reversed": "Perfectionism, uninspired, lack of motivation, cutting corners, poor quality."
+        "reversed": "Perfectionism, uninspired, lack of motivation, cutting corners, poor quality.",
+        "image": "\u2b50"
     },
     {
         "id": 9,
         "name": "Nine of Pentacles",
         "upright": "Luxury, independence, abundance, self-sufficiency, enjoying fruits of labor.",
-        "reversed": "Over-reliance on money, recklessness, living beyond means, false success."
+        "reversed": "Over-reliance on money, recklessness, living beyond means, false success.",
+        "image": "\ud83c\udf3f"
     },
     {
         "id": 10,
         "name": "Ten of Pentacles",
         "upright": "Legacy, inheritance, long-term security, family wealth, culmination, dynasty.",
-        "reversed": "Financial ruin, family disputes, lack of legacy, fleeting success, instability."
+        "reversed": "Financial ruin, family disputes, lack of legacy, fleeting success, instability.",
+        "image": "\ud83c\udfa9"
     },
     {
         "id": 11,
         "name": "Page of Pentacles",
         "upright": "Ambition, study, diligence, new business venture, student, practical learner.",
-        "reversed": "Laziness, lack of commitment, procrastination, unrealized potential, distraction."
+        "reversed": "Laziness, lack of commitment, procrastination, unrealized potential, distraction.",
+        "image": "\ud83d\udce6"
     },
     {
         "id": 12,
         "name": "Knight of Pentacles",
         "upright": "Routine, reliability, hard work, steady progress, methodical, dependable.",
-        "reversed": "Boredom, stagnation, inflexibility, obsession with details, slacking off."
+        "reversed": "Boredom, stagnation, inflexibility, obsession with details, slacking off.",
+        "image": "\ud83c\udf3e"
     },
     {
         "id": 13,
         "name": "Queen of Pentacles",
         "upright": "Nurturing, practicality, financial security, earthy, supportive, homemaker.",
-        "reversed": "Smothering, jealousy, self-centeredness, neglecting needs, workaholic."
+        "reversed": "Smothering, jealousy, self-centeredness, neglecting needs, workaholic.",
+        "image": "\ud83d\udd11"
     },
     {
         "id": 14,
         "name": "King of Pentacles",
         "upright": "Business leader, provider, wealth, stability, successful entrepreneur, patron.",
-        "reversed": "Greed, exploitation, stubbornness, miserliness, abuse of power, rigidity."
+        "reversed": "Greed, exploitation, stubbornness, miserliness, abuse of power, rigidity.",
+        "image": "\ud83d\udc8e"
     }
 ]

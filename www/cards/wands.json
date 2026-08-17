@@ -3,84 +3,98 @@
         "id": 1,
         "name": "Ace of Wands",
         "upright": "Inspiration, motivation, enthusiasm, new beginning, potential, creative spark.",
-        "reversed": "Delays, frustration, lack of initiative, blocked energy, doubt."
+        "reversed": "Delays, frustration, lack of initiative, blocked energy, doubt.",
+        "image": "\ud83c\udf31"
     },
     {
         "id": 2,
         "name": "Two of Wands",
         "upright": "Planning, strategy, global thinking, expansion, future planning, decisions.",
-        "reversed": "Playing it safe, fear of change, complacency, short-sightedness, bad planning."
+        "reversed": "Playing it safe, fear of change, complacency, short-sightedness, bad planning.",
+        "image": "\u2694\ufe0f"
     },
     {
         "id": 3,
         "name": "Three of Wands",
         "upright": "Expansion, foresight, progress, growth, new opportunities, looking ahead.",
-        "reversed": "Delays, setbacks, obstacles, frustration, halted progress, lack of vision."
+        "reversed": "Delays, setbacks, obstacles, frustration, halted progress, lack of vision.",
+        "image": "\ud83c\udf86"
     },
     {
         "id": 4,
         "name": "Four of Wands",
         "upright": "Celebration, harmony, homecoming, community, milestone, stability.",
-        "reversed": "Transience, instability, family conflict, lack of support, missed celebration."
+        "reversed": "Transience, instability, family conflict, lack of support, missed celebration.",
+        "image": "\ud83c\udff9"
     },
     {
         "id": 5,
         "name": "Five of Wands",
         "upright": "Competition, conflict, challenge, disagreement, rivalry, clash of egos.",
-        "reversed": "Avoiding conflict, resolution, cooperation, respecting differences, peace."
+        "reversed": "Avoiding conflict, resolution, cooperation, respecting differences, peace.",
+        "image": "\u2694\ufe0f"
     },
     {
         "id": 6,
         "name": "Six of Wands",
         "upright": "Victory, success, recognition, public acclaim, confidence, winning.",
-        "reversed": "Pride, ego, lack of recognition, failure, humility, disappointment."
+        "reversed": "Pride, ego, lack of recognition, failure, humility, disappointment.",
+        "image": "\ud83c\udfc6"
     },
     {
         "id": 7,
         "name": "Seven of Wands",
         "upright": "Defensiveness, perseverance, standing your ground, competition, determination.",
-        "reversed": "Giving up, overwhelm, defensiveness, retreat, exhaustion, avoiding battle."
+        "reversed": "Giving up, overwhelm, defensiveness, retreat, exhaustion, avoiding battle.",
+        "image": "\ud83c\udf3f"
     },
     {
         "id": 8,
         "name": "Eight of Wands",
         "upright": "Movement, swift action, progress, rapid change, news arriving quickly.",
-        "reversed": "Delay, disruption, panic, waiting, slow pace, scattered energy."
+        "reversed": "Delay, disruption, panic, waiting, slow pace, scattered energy.",
+        "image": "\ud83c\udf00"
     },
     {
         "id": 9,
         "name": "Nine of Wands",
         "upright": "Resilience, persistence, last stand, guardedness, survival, endurance.",
-        "reversed": "Exhaustion, burnout, paranoia, giving up, vulnerability, fatigue."
+        "reversed": "Exhaustion, burnout, paranoia, giving up, vulnerability, fatigue.",
+        "image": "\ud83c\udf35"
     },
     {
         "id": 10,
         "name": "Ten of Wands",
         "upright": "Burden, responsibility, hard work, completion, overload, carrying weight.",
-        "reversed": "Delegation, letting go, collapse, stress, burnout, dropping responsibilities."
+        "reversed": "Delegation, letting go, collapse, stress, burnout, dropping responsibilities.",
+        "image": "\ud83c\udfad"
     },
     {
         "id": 11,
         "name": "Page of Wands",
         "upright": "Enthusiasm, discovery, exploration, new ideas, excitement, message about work.",
-        "reversed": "Procrastination, lack of direction, poor planning, boredom, delayed start."
+        "reversed": "Procrastination, lack of direction, poor planning, boredom, delayed start.",
+        "image": "\ud83e\udd81"
     },
     {
         "id": 12,
         "name": "Knight of Wands",
         "upright": "Action, adventure, passion, drive, impulsiveness, bold moves.",
-        "reversed": "Impulsivity, rash actions, delays, frustration, lack of focus, burnout."
+        "reversed": "Impulsivity, rash actions, delays, frustration, lack of focus, burnout.",
+        "image": "\u265f\ufe0f"
     },
     {
         "id": 13,
         "name": "Queen of Wands",
         "upright": "Confidence, warmth, ambition, social butterfly, independent, charismatic.",
-        "reversed": "Jealousy, selfishness, demanding, insecure, overly competitive, mood swings."
+        "reversed": "Jealousy, selfishness, demanding, insecure, overly competitive, mood swings.",
+        "image": "\ud83c\udf32"
     },
     {
         "id": 14,
         "name": "King of Wands",
         "upright": "Leadership, entrepreneurship, charisma, decisive, visionary, generous.",
-        "reversed": "Arrogance, impulsive, dictatorial, unreliable, reckless, bullying."
+        "reversed": "Arrogance, impulsive, dictatorial, unreliable, reckless, bullying.",
+        "image": "\ud83d\udd25"
     }
 ]
