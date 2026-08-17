@@ -64,7 +64,7 @@ async function loadListPage() {
         });
     } catch (error) {
         console.error("Failed to load cards:", error);
-        showError('list', `Could not load cards for "${suit}". Please check your connection and try again.`);
+        showError(`Could not load cards for "${suit}". Please check your connection and try again.`);
     }
 }
 
@@ -106,7 +106,7 @@ async function loadDetailPage() {
 
     } catch (error) {
         console.error("Failed to load detail:", error);
-        showError('detail', 'Could not load this card. Please go back and try again.');
+        showError('Could not load this card. Please go back and try again.');
     }
 }
 
@@ -117,7 +117,7 @@ const ORIENTATIONS = ['upright', 'reversed'];
 
 async function drawRandomCard() {
     const suit = ALL_SUITS[Math.floor(Math.random() * ALL_SUITS.length)];
-    const orientation = ORIENTATIONS[Math.floor(Math.random() * 2)];
+    const orientation = ORIENTATIONS[Math.floor(Math.random() * ORIENTATIONS.length)];
 
     try {
         const cards = await fetchCards(suit);
@@ -194,7 +194,7 @@ function renderHistory() {
 
 // ─── Error display ────────────────────────────────────────────────────────────
 
-function showError(page, message) {
+function showError(message) {
     const box = document.getElementById('error-box');
     const msg = document.getElementById('error-msg');
     if (box && msg) {
