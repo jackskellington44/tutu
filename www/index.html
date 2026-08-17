@@ -3,19 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarot DB</title>
+    <title>Tutu</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>tutu</h1>
-    
-    <!-- No classes needed, just plain buttons -->
-    <button onclick="goToList('major')">Major Arcana</button>
-    <button onclick="goToList('wands')">Wands</button>
-    <button onclick="goToList('pentacles')">Pentacles</button>
-    <button onclick="goToList('cups')">Cups</button>
-    <button onclick="goToList('swords')">Swords</button>
-    
+    <nav id="suit-nav">
+        <button onclick="loadList('major')">Major Arcana</button>
+        <button onclick="loadList('wands')">Wands</button>
+        <button onclick="loadList('pentacles')">Pentacles</button>
+        <button onclick="loadList('cups')">Cups</button>
+        <button onclick="loadList('swords')">Swords</button>
+    </nav>
+
+    <div id="list-view" style="display:none">
+        <div id="card-container"></div>
+    </div>
+
+    <div id="detail-view" style="display:none">
+        <h1 id="card-title"></h1>
+        <div id="description-box"></div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
