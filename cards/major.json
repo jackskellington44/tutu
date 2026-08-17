@@ -1,0 +1,134 @@
+[
+    {
+        "id": 0,
+        "name": "The Fool",
+        "upright": "Innocence, spontaneity, a free spirit, taking a leap of faith, new beginnings.",
+        "reversed": "Recklessness, naivety, hesitation, fear of the unknown, holding back."
+    },
+    {
+        "id": 1,
+        "name": "The Magician",
+        "upright": "Willpower, manifestation, resourcefulness, action, using your talents effectively.",
+        "reversed": "Manipulation, trickery, untapped talent, illusion, lack of direction."
+    },
+    {
+        "id": 2,
+        "name": "The High Priestess",
+        "upright": "Intuition, inner knowing, mystery, subconscious, passive knowledge.",
+        "reversed": "Secrets kept too long, disconnection from intuition, hidden truths surfacing, overthinking."
+    },
+    {
+        "id": 3,
+        "name": "The Empress",
+        "upright": "Abundance, fertility, nurturing, creativity, beauty, growth.",
+        "reversed": "Creative block, dependence on others, smothering, neglecting self-care, emptiness."
+    },
+    {
+        "id": 4,
+        "name": "The Emperor",
+        "upright": "Authority, structure, stability, leadership, control, father figure.",
+        "reversed": "Tyranny, rigidity, domination, lack of discipline, coldness, misuse of power."
+    },
+    {
+        "id": 5,
+        "name": "The Hierophant",
+        "upright": "Tradition, conformity, spiritual guidance, shared values, institutions.",
+        "reversed": "Rebellion, subversion, breaking rules, new approaches, questioning authority."
+    },
+    {
+        "id": 6,
+        "name": "The Lovers",
+        "upright": "Harmony, relationships, choices, alignment of values, partnership.",
+        "reversed": "Disharmony, imbalance, indecision, misalignment of values, internal conflict."
+    },
+    {
+        "id": 7,
+        "name": "The Chariot",
+        "upright": "Determination, willpower, victory, control, moving forward despite obstacles.",
+        "reversed": "Lack of direction, aggression, opposition, feeling out of control, stalled progress."
+    },
+    {
+        "id": 8,
+        "name": "Strength",
+        "upright": "Courage, patience, compassion, inner strength, gentle power.",
+        "reversed": "Self-doubt, insecurity, raw emotion, weakness, losing control."
+    },
+    {
+        "id": 9,
+        "name": "The Hermit",
+        "upright": "Introspection, solitude, inner guidance, searching for truth, wisdom.",
+        "reversed": "Isolation, loneliness, withdrawal, refusing help, losing sight of purpose."
+    },
+    {
+        "id": 10,
+        "name": "Wheel of Fortune",
+        "upright": "Good luck, destiny, cycles, change, turning point, karma.",
+        "reversed": "Bad luck, resistance to change, breaking cycles, loss of control."
+    },
+    {
+        "id": 11,
+        "name": "Justice",
+        "upright": "Fairness, truth, cause and effect, accountability, law.",
+        "reversed": "Unfairness, dishonesty, lack of accountability, bias, avoidance of truth."
+    },
+    {
+        "id": 12,
+        "name": "The Hanged Man",
+        "upright": "Pause, surrender, letting go, new perspective, voluntary sacrifice.",
+        "reversed": "Stalling, unnecessary delay, resistance to sacrifice, martyrdom."
+    },
+    {
+        "id": 13,
+        "name": "Death",
+        "upright": "Endings, transformation, transition, change, rebirth.",
+        "reversed": "Resistance to change, stagnation, decay, inability to let go."
+    },
+    {
+        "id": 14,
+        "name": "Temperance",
+        "upright": "Balance, moderation, patience, finding the middle path, healing.",
+        "reversed": "Imbalance, excess, impatience, discord, lack of purpose."
+    },
+    {
+        "id": 15,
+        "name": "The Devil",
+        "upright": "Temptation, attachment, bondage, materialism, shadow self.",
+        "reversed": "Breaking free, releasing toxic habits, reclaiming power, facing fears."
+    },
+    {
+        "id": 16,
+        "name": "The Tower",
+        "upright": "Upheaval, sudden change, revelation, breakdown of false structures, awakening.",
+        "reversed": "Averting disaster, fear of change, delayed upheaval, personal inner turmoil."
+    },
+    {
+        "id": 17,
+        "name": "The Star",
+        "upright": "Hope, inspiration, renewal, serenity, faith, spirituality.",
+        "reversed": "Despair, disconnection, lack of faith, discouragement, lost hope."
+    },
+    {
+        "id": 18,
+        "name": "The Moon",
+        "upright": "Illusion, intuition, subconscious, dreams, uncertainty, anxiety.",
+        "reversed": "Clarity, release of fear, emerging from confusion, understanding, relief."
+    },
+    {
+        "id": 19,
+        "name": "The Sun",
+        "upright": "Joy, success, confidence, vitality, positivity, achievement.",
+        "reversed": "Temporary gloom, overconfidence, blocked joy, pessimism, unrealistic expectations."
+    },
+    {
+        "id": 20,
+        "name": "Judgement",
+        "upright": "Awakening, reckoning, absolution, inner calling, transformation.",
+        "reversed": "Self-doubt, harsh judgment, refusal to hear the call, perfectionism."
+    },
+    {
+        "id": 21,
+        "name": "The World",
+        "upright": "Completion, fulfillment, integration, success, wholeness, travel.",
+        "reversed": "Incomplete goals, delays, lack of closure, shortcuts, feeling unfulfilled."
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Ace of Cups",
+        "upright": "New love, emotional fulfillment, compassion, creativity, spiritual awakening.",
+        "reversed": "Blocked emotions, apathy, emotional drought, overflow, suppressed feelings."
+    },
+    {
+        "id": 2,
+        "name": "Two of Cups",
+        "upright": "Partnership, mutual attraction, unity, reconciliation, friendship, connection.",
+        "reversed": "Disagreement, broken bond, imbalance, tension, ending a relationship."
+    },
+    {
+        "id": 3,
+        "name": "Three of Cups",
+        "upright": "Friendship, celebration, community, support, networking, joyful gathering.",
+        "reversed": "Oversharing, gossip, exclusion, overindulgence, strained friendships."
+    },
+    {
+        "id": 4,
+        "name": "Four of Cups",
+        "upright": "Contemplation, apathy, boredom, meditation, rejecting offers, introspection.",
+        "reversed": "Opportunity, gratitude, motivation, waking up, seizing the moment."
+    },
+    {
+        "id": 5,
+        "name": "Five of Cups",
+        "upright": "Regret, sorrow, grief, loss, disappointment, focusing on negatives.",
+        "reversed": "Acceptance, forgiveness, moving on, recovery, hope, learning from loss."
+    },
+    {
+        "id": 6,
+        "name": "Six of Cups",
+        "upright": "Nostalgia, childhood memories, innocence, reunion, kindness, past connections.",
+        "reversed": "Living in the past, moving on, leaving behind, unresolved issues, nostalgia trap."
+    },
+    {
+        "id": 7,
+        "name": "Seven of Cups",
+        "upright": "Choices, illusions, fantasy, wishful thinking, many options, daydreaming.",
+        "reversed": "Clarity, decision made, focus, reality check, choosing wisely, grounding."
+    },
+    {
+        "id": 8,
+        "name": "Eight of Cups",
+        "upright": "Walking away, disillusionment, seeking higher purpose, leaving behind, quest.",
+        "reversed": "Fear of change, staying in comfort zone, avoidance, reluctance to leave."
+    },
+    {
+        "id": 9,
+        "name": "Nine of Cups",
+        "upright": "Contentment, satisfaction, wishes granted, emotional fulfillment, luxury.",
+        "reversed": "Disappointment, ungratefulness, materialism, dissatisfaction, empty gains."
+    },
+    {
+        "id": 10,
+        "name": "Ten of Cups",
+        "upright": "Family harmony, happiness, lasting love, domestic bliss, ideal relationship.",
+        "reversed": "Broken family, disharmony, shattered dreams, divorce, unhappy home life."
+    },
+    {
+        "id": 11,
+        "name": "Page of Cups",
+        "upright": "Creativity, imagination, intuition, emotional message, artist, dreamer.",
+        "reversed": "Emotional immaturity, insecurity, disappointment, blocked creativity, cynicism."
+    },
+    {
+        "id": 12,
+        "name": "Knight of Cups",
+        "upright": "Romantic gesture, charm, diplomacy, following heart, invitation, suitor.",
+        "reversed": "Moodiness, emotional blackmail, unrealistic romance, betrayal, sulking."
+    },
+    {
+        "id": 13,
+        "name": "Queen of Cups",
+        "upright": "Compassion, empathy, calm, nurturing, intuitive, emotionally balanced.",
+        "reversed": "Dependence, insecurity, mood swings, martyrdom, emotional volatility."
+    },
+    {
+        "id": 14,
+        "name": "King of Cups",
+        "upright": "Emotional control, diplomat, compassionate leader, counselor, balanced feelings.",
+        "reversed": "Coldness, manipulative, moody, distant, bad advice, emotional flooding."
+    }
+]

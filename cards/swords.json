@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Ace of Swords",
+        "upright": "Breakthrough, clarity, insight, truth, victory through intellect, new idea.",
+        "reversed": "Confusion, mental block, poor decisions, deception, clouded judgment."
+    },
+    {
+        "id": 2,
+        "name": "Two of Swords",
+        "upright": "Difficult choice, indecision, stalemate, truce, blindfold, blocking emotions.",
+        "reversed": "Decision made, clarity, truth revealed, conflict, lifting the veil."
+    },
+    {
+        "id": 3,
+        "name": "Three of Swords",
+        "upright": "Heartbreak, grief, sorrow, separation, painful truth, regret.",
+        "reversed": "Recovery, forgiveness, healing, moving on, accepting pain, resilience."
+    },
+    {
+        "id": 4,
+        "name": "Four of Swords",
+        "upright": "Rest, recuperation, contemplation, pause, meditation, recharge.",
+        "reversed": "Burnout, restlessness, stress, overworking, insomnia, rushing back."
+    },
+    {
+        "id": 5,
+        "name": "Five of Swords",
+        "upright": "Conflict, defeat, betrayal, hollow victory, confrontation, losing face.",
+        "reversed": "Reconciliation, apology, making amends, moving on, resolving conflict."
+    },
+    {
+        "id": 6,
+        "name": "Six of Swords",
+        "upright": "Transition, moving on, leaving trouble behind, journey, calmer waters.",
+        "reversed": "Unresolved issues, emotional baggage, resisting transition, stuck."
+    },
+    {
+        "id": 7,
+        "name": "Seven of Swords",
+        "upright": "Strategy, cunning, stealth, deception, getting away with it, solo move.",
+        "reversed": "Caught red-handed, confession, ethics, returning stolen goods, honesty."
+    },
+    {
+        "id": 8,
+        "name": "Eight of Swords",
+        "upright": "Restriction, entrapment, victim mentality, self-imposed prison, limitation.",
+        "reversed": "Freedom, new perspective, escape, empowerment, realizing constraints are mental."
+    },
+    {
+        "id": 9,
+        "name": "Nine of Swords",
+        "upright": "Anxiety, worry, nightmares, despair, guilt, mental anguish.",
+        "reversed": "Relief, hope, overcoming fear, recovery, positive mindset, therapy."
+    },
+    {
+        "id": 10,
+        "name": "Ten of Swords",
+        "upright": "Failure, collapse, painful end, betrayal, rock bottom, finality.",
+        "reversed": "Rebirth, recovery, dawn after darkness, survival, lessons learned."
+    },
+    {
+        "id": 11,
+        "name": "Page of Swords",
+        "upright": "Curiosity, vigilance, mental energy, investigation, alert, watching.",
+        "reversed": "Deception, manipulation, all talk, rumor, suspicion, closed-mindedness."
+    },
+    {
+        "id": 12,
+        "name": "Knight of Swords",
+        "upright": "Action, impulsiveness, defending beliefs, fast-thinking, direct approach.",
+        "reversed": "No direction, disregard for consequences, unpredictability, rash behavior."
+    },
+    {
+        "id": 13,
+        "name": "Queen of Swords",
+        "upright": "Clear boundaries, honest, direct, independent, perception, no-nonsense.",
+        "reversed": "Cold-hearted, bitter, cruel, resentful, overly critical, withholding affection."
+    },
+    {
+        "id": 14,
+        "name": "King of Swords",
+        "upright": "Head over heart, discipline, truth, intellectual authority, judge, executive.",
+        "reversed": "Manipulative, cruel, weak-willed, authoritarian, abusive, cutthroat."
+    }
+]

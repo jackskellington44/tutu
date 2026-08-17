@@ -1,0 +1,5 @@
+node_modules/
+android/app/my-keystore.jks
+*.jks
+.DS_Store
+    

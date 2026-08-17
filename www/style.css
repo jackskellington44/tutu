@@ -1,0 +1,26 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h1.detail-title {
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.card-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0;
+}
+
+.card-name {
+    flex-grow: 1;
+}
+
+.reversed-btn {
+    margin-left: 15px; /* This creates the gap */
+}
